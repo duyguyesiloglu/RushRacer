@@ -8,7 +8,9 @@ The game was developed using the Unity game engine and coded using the C# progra
 
 ## Google Drive
 
-You can find current Google Drive link from here.
+You can find current Google Drive link from here. This could be used for seeing the presentation day version of this game. And since the project was first created in MacOS, its libraries are using the MacOS version of things.
+
+https://drive.google.com/file/d/1-nWf1Ny_Y3UnkUMfgohvk9RHbZde15l-/
 
 ## Screenshots
 
