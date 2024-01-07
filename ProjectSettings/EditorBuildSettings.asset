@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Game/Omer devam.unity
+    path: Assets/Scenes/Game/NormalTrack.unity
     guid: ab6e2999ed9bb49bfb6b4ffef157c9d1
   - enabled: 1
-    path: Assets/Scenes/Test.unity
+    path: Assets/Scenes/PrototypeLevels/Test.unity
     guid: 9f4f0319eaafe4369900fba16605adbb
   - enabled: 1
     path: Assets/Scenes/Game/MainMenu.unity
