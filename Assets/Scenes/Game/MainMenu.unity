@@ -6110,6 +6110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Track SEcimi
       objectReference: {fileID: 0}
+    - target: {fileID: 7831795580725179867, guid: b3eb3eb2497c6401a826b2e434d2dcdd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7831795580725179868, guid: b3eb3eb2497c6401a826b2e434d2dcdd, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6976,7 +6980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2afb57c13b1514f339c8f82f840addec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trackSceneName: Omer Devam
+  trackSceneName: NormalTrack
   trackImage: {fileID: 1410443472}
   raceLap: 1
   unlockedText: {fileID: 0}
