@@ -5066,7 +5066,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: -1716148202415487956, guid: 79cc8c1810ffd4f12aa02ef98aa483db, type: 2}
   m_audioClip: {fileID: 8300000, guid: ba6bee039203f6149a40db6113e558e2, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.507
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -7927,10 +7927,10 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4278513663
   m_fontColor: {r: 1, g: 0.93806165, b: 0.0141509175, a: 1}
-  m_enableVertexGradient: 0
+  m_enableVertexGradient: 1
   m_colorMode: 3
   m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 0, g: 0, b: 0, a: 1}
     topRight: {r: 1, g: 1, b: 1, a: 1}
     bottomLeft: {r: 1, g: 1, b: 1, a: 1}
     bottomRight: {r: 1, g: 1, b: 1, a: 1}
@@ -11420,7 +11420,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: -1716148202415487956, guid: 79cc8c1810ffd4f12aa02ef98aa483db, type: 2}
   m_audioClip: {fileID: 8300000, guid: a7ee87eca34aa415f8a9849fa7bcde33, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -16311,13 +16311,13 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4278513919
   m_fontColor: {r: 1, g: 0.9411765, b: 0.015686275, a: 1}
-  m_enableVertexGradient: 0
+  m_enableVertexGradient: 1
   m_colorMode: 3
   m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 0, g: 0, b: 0, a: 1}
+    topRight: {r: 1, g: 0.8166665, b: 0.088679194, a: 1}
     bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 0, g: 0, b: 0, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
@@ -22142,7 +22142,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 3766336086024389124, guid: 79cc8c1810ffd4f12aa02ef98aa483db, type: 2}
   m_audioClip: {fileID: 8300000, guid: ce480b4bd016346fab0b0e555853d2e1, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.394
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -22427,6 +22427,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8564835010520112225, guid: c273e19dbb69041a7b64b5d7ad420fa6, type: 3}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c273e19dbb69041a7b64b5d7ad420fa6, type: 3}
 --- !u!1001 &2858947294227328871
@@ -22436,6 +22440,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5020601435157691674, guid: 868a90070c97749bea3d525d632e30a5, type: 3}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 5020601436412944216, guid: 868a90070c97749bea3d525d632e30a5, type: 3}
       propertyPath: m_Name
       value: AI Cars
@@ -22630,6 +22638,10 @@ PrefabInstance:
       propertyPath: engineSound
       value: 
       objectReference: {fileID: 461224616}
+    - target: {fileID: 3963099772645224163, guid: b7c5fce42065b42859a6a6bdab87aaa8, type: 3}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7c5fce42065b42859a6a6bdab87aaa8, type: 3}
 --- !u!1001 &6760675753301566157
@@ -22639,6 +22651,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4599153553945271484, guid: 6ee173d0b20ff41e4942d3b50972be1e, type: 3}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 4599153554831474428, guid: 6ee173d0b20ff41e4942d3b50972be1e, type: 3}
       propertyPath: engineSound
       value: 
@@ -22704,6 +22720,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7062144549437128963, guid: 876dea963c26645c7a13eff3c25049fe, type: 3}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 7062144550701048641, guid: 876dea963c26645c7a13eff3c25049fe, type: 3}
       propertyPath: m_Name
       value: Player Car
@@ -22769,6 +22789,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7573161275345093, guid: eee498ae4abe6404a8dd6026ad367842, type: 3}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 7573162672958084, guid: eee498ae4abe6404a8dd6026ad367842, type: 3}
       propertyPath: m_RootOrder
       value: 31
