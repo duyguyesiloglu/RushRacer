@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Game/Omer devam.unity
+    guid: ab6e2999ed9bb49bfb6b4ffef157c9d1
+  - enabled: 1
+    path: Assets/Scenes/Test.unity
+    guid: 9f4f0319eaafe4369900fba16605adbb
+  - enabled: 1
+    path: Assets/Scenes/Game/MainMenu.unity
+    guid: 1c4d3f01e2a1f413685937a4311e44cf
+  - enabled: 1
+    path: Assets/Scenes/Game/Snow2.unity
+    guid: a74842215424e4f30a3eb49a88a21a97
   m_configObjects: {}

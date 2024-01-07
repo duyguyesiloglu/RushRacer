@@ -280,6 +280,11 @@ public class CarContoler : MonoBehaviour
             bestLaptime = lapTime;
 
         }
+
+        if( current <= Race.instance.totalLaps)
+        {
+
+        
         lapTime = 0f;
         if(!isAI)
         {
@@ -287,9 +292,26 @@ public class CarContoler : MonoBehaviour
         
 
         var ts = System.TimeSpan.FromSeconds(bestLaptime);
-        UIManager.instance.bestLapTimeText.text = string.Format("{0:00}m{1:00}.{2.000}s", ts.Minutes, ts.Seconds, ts.Minutes, ts.Milliseconds);
+        UIManager.instance.bestLapTimeText.text = string.Format("{0:00}m{1:00}.{2.000}s", ts.Minutes, ts.Seconds, ts.Milliseconds);
 
         UIManager.instance.LapCounterText.text = current + "/" + Race.instance.totalLaps;
+        }
+        } else
+        {
+            if(!isAI)
+            {
+                isAI = true;
+                mod = 1f;
+          
+                targetPoint = Race.instance.allcheckPoints[currentTarget].transform.position;
+                RandomisAITarget();
+
+                var ts = System.TimeSpan.FromSeconds(bestLaptime);
+               //UIManager.instance.bestLapTimeText.text = string.Format("{0:00}m{1:00}.{2.000}s", ts.Minutes, ts.Seconds, ts.Minutes, ts.Milliseconds);
+                Race.instance.fisih();
+
+                UIManager.instance.ShowResultsPanel();
+            }
         }
     }
 
